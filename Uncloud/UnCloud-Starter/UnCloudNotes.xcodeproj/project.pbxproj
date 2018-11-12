@@ -14,7 +14,7 @@
 		812EE341219A1AF00036405E /* ImageAttachment+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812EE33F219A1AF00036405E /* ImageAttachment+CoreDataClass.swift */; };
 		812EE342219A1AF00036405E /* ImageAttachment+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812EE340219A1AF00036405E /* ImageAttachment+CoreDataProperties.swift */; };
 		812EE344219A1EF90036405E /* MappingModelV3toV4.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = 812EE343219A1EF90036405E /* MappingModelV3toV4.xcmappingmodel */; };
-		812EE346219A28140036405E /* AttachmentToImageAttachmentMigrationPolicyV3toV4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812EE345219A28140036405E /* AttachmentToImageAttachmentMigrationPolicyV3toV4.swift */; };
+		812EE348219A380B0036405E /* AttachmentToImageAttachmentMigrationPolicyV3toV4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812EE347219A380A0036405E /* AttachmentToImageAttachmentMigrationPolicyV3toV4.swift */; };
 		95863A171D6DE01200247AE2 /* NoteImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95863A161D6DE01200247AE2 /* NoteImageTableViewCell.swift */; };
 		AE81437F1E2616FB00B5CF5E /* Attachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE81437E1E2616FB00B5CF5E /* Attachment.swift */; };
 		C71A68741948D2CB003A62E7 /* CreateNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71A68731948D2CB003A62E7 /* CreateNoteViewController.swift */; };
@@ -40,7 +40,7 @@
 		812EE33F219A1AF00036405E /* ImageAttachment+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImageAttachment+CoreDataClass.swift"; sourceTree = "<group>"; };
 		812EE340219A1AF00036405E /* ImageAttachment+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImageAttachment+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		812EE343219A1EF90036405E /* MappingModelV3toV4.xcmappingmodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcmappingmodel; path = MappingModelV3toV4.xcmappingmodel; sourceTree = "<group>"; };
-		812EE345219A28140036405E /* AttachmentToImageAttachmentMigrationPolicyV3toV4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttachmentToImageAttachmentMigrationPolicyV3toV4.swift; sourceTree = "<group>"; };
+		812EE347219A380A0036405E /* AttachmentToImageAttachmentMigrationPolicyV3toV4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttachmentToImageAttachmentMigrationPolicyV3toV4.swift; sourceTree = "<group>"; };
 		95863A161D6DE01200247AE2 /* NoteImageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteImageTableViewCell.swift; sourceTree = "<group>"; };
 		AE81437E1E2616FB00B5CF5E /* Attachment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Attachment.swift; sourceTree = "<group>"; };
 		C70DC6561D929DFE001A8AA6 /* UnCloudNotesDataModel v2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "UnCloudNotesDataModel v2.xcdatamodel"; sourceTree = "<group>"; };
@@ -108,7 +108,7 @@
 				790FC6E3198439AD00B52A53 /* AttachPhotoViewController.swift */,
 				812EE33F219A1AF00036405E /* ImageAttachment+CoreDataClass.swift */,
 				812EE340219A1AF00036405E /* ImageAttachment+CoreDataProperties.swift */,
-				812EE345219A28140036405E /* AttachmentToImageAttachmentMigrationPolicyV3toV4.swift */,
+				812EE347219A380A0036405E /* AttachmentToImageAttachmentMigrationPolicyV3toV4.swift */,
 				C77E1E801947D6D700762492 /* Main.storyboard */,
 				C77E1E7A1947D6D700762492 /* Supporting Files */,
 				C7F78B92194E1FA900BAF550 /* UnCloudNotesDataModel.xcdatamodeld */,
@@ -207,7 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				95863A171D6DE01200247AE2 /* NoteImageTableViewCell.swift in Sources */,
-				812EE346219A28140036405E /* AttachmentToImageAttachmentMigrationPolicyV3toV4.swift in Sources */,
+				812EE348219A380B0036405E /* AttachmentToImageAttachmentMigrationPolicyV3toV4.swift in Sources */,
 				C7F78B94194E1FA900BAF550 /* UnCloudNotesDataModel.xcdatamodeld in Sources */,
 				C77E1E7F1947D6D700762492 /* NotesListViewController.swift in Sources */,
 				C7F78B8F194E1D5A00BAF550 /* NoteDetailViewController.swift in Sources */,
